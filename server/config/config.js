@@ -28,7 +28,7 @@ function getListenIps() {
   Object.keys(interfaces).forEach((netInterface) => {
    interfaces[netInterface].forEach((interfaceObject) => {
     if (interfaceObject.family === 'IPv4' && !interfaceObject.internal) {
-     addresses.push({ ip: interfaceObject.address, announcedIp: null });
+     addresses.push({ ip: interfaceObject.address, announcedIp: '3.22.227.126' });
     }
    });
   });
