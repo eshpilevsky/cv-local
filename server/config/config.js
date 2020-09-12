@@ -96,9 +96,9 @@ module.exports =
 	// if you use encrypted private key the set the passphrase
 	tls:
 	{
-		cert: `${__dirname}/../certs/cert.pem`,
+		cert: `/etc/letsencrypt/live/newedutech.xyz/fullchain.pem`,
 		// passphrase: 'key_password'
-		key: `${__dirname}/../certs/privkey.pem`
+		key: `/etc/letsencrypt/live/newedutech.xyz/privkey.pem`
 	},
 	// listening Host or IP
 	// If omitted listens on every IP. ("0.0.0.0" and "::")
