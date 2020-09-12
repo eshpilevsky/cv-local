@@ -24,7 +24,7 @@ const {
 function getListenIps() {
   const interfaces = os.networkInterfaces();
   const addresses = [];
- 
+
   Object.keys(interfaces).forEach((netInterface) => {
    interfaces[netInterface].forEach((interfaceObject) => {
     if (interfaceObject.family === 'IPv4' && !interfaceObject.internal) {
@@ -84,8 +84,8 @@ module.exports =
 			urls : [
 				'turn:numb.viagenie.ca'
 			],
-			username   : 'webrtc@live.com',
-			credential : 'muazkh'
+			username   : 'shpilevskyevgeny@gmail.com',
+			credential : 'Thomson89'
 		}
 	],
 	fileTracker  : 'wss://tracker.lab.vvc.niif.hu:443',
